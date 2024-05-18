@@ -3,7 +3,7 @@ entries:
   do-database-metrics-adapter:
   - apiVersion: v2
     appVersion: 1.0.12
-    created: "2024-05-17T07:02:52.653129126Z"
+    created: "2024-05-18T01:38:39.633885964Z"
     description: do-database-metrics-adapter is an adapter for the Kubernetes Metrics
       API that allows you to collect metrics from DigitalOcean Managed Databases.
     digest: bd0691e792d09e6a33e7daddaa4ecae90dcb3292575112d5afd25b2c837edd00
@@ -25,7 +25,7 @@ entries:
     version: 1.0.12
   - apiVersion: v2
     appVersion: 1.0.11
-    created: "2024-05-17T07:02:52.652641547Z"
+    created: "2024-05-18T01:38:39.633504185Z"
     description: do-database-metrics-adapter is an adapter for the Kubernetes Metrics
       API that allows you to collect metrics from DigitalOcean Managed Databases.
     digest: d69e7d3a8432b8ab4873588dd26586fc0a5a0b1a2fd3ee487149420e82891e9b
@@ -47,7 +47,7 @@ entries:
     version: 1.0.11
   - apiVersion: v2
     appVersion: 1.0.10
-    created: "2024-05-17T07:02:52.652163777Z"
+    created: "2024-05-18T01:38:39.633122366Z"
     description: do-database-metrics-adapter is an adapter for the Kubernetes Metrics
       API that allows you to collect metrics from DigitalOcean Managed Databases.
     digest: 7907f5a90f9f5f48a146f7e4db7aaa34c6985b8a5a007d18bb09b9eaac933f92
@@ -69,7 +69,7 @@ entries:
     version: 1.0.10
   - apiVersion: v2
     appVersion: 1.0.9
-    created: "2024-05-17T07:02:52.657122897Z"
+    created: "2024-05-18T01:38:39.636127436Z"
     description: do-database-metrics-adapter is an adapter for the Kubernetes Metrics
       API that allows you to collect metrics from DigitalOcean Managed Databases.
     digest: 5ebe1626ed127105b7eb5baa4e381dcdd7525d6800dd49fbfa6207a53ad41fb9
@@ -91,7 +91,7 @@ entries:
     version: 1.0.9
   - apiVersion: v2
     appVersion: 1.0.8
-    created: "2024-05-17T07:02:52.656102505Z"
+    created: "2024-05-18T01:38:39.635680592Z"
     description: do-database-metrics-adapter is an adapter for the Kubernetes Metrics
       API that allows you to collect metrics from DigitalOcean Managed Databases.
     digest: ee5d3e69be56e45eb29a429a9b01c3f9d1c30c9aa6c94af02be8ca5b85a4a0ce
@@ -113,7 +113,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: 1.0.7
-    created: "2024-05-17T07:02:52.655720894Z"
+    created: "2024-05-18T01:38:39.635302411Z"
     description: do-database-metrics-adapter is an adapter for the Kubernetes Metrics
       API that allows you to collect metrics from DigitalOcean Managed Databases.
     digest: 730e78f8881a21f2d8c351692ff9586e7f02af354805b0cedc8a57c717d423f0
@@ -135,7 +135,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 1.0.6
-    created: "2024-05-17T07:02:52.655349903Z"
+    created: "2024-05-18T01:38:39.634954085Z"
     description: do-database-metrics-adapter is an adapter for the Kubernetes Metrics
       API that allows you to collect metrics from DigitalOcean Managed Databases.
     digest: cc462b3bddcabade27391e115767516bfcc672c14be8745ff2cb237cfe3475c8
@@ -157,7 +157,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2024-05-17T07:02:52.653855189Z"
+    created: "2024-05-18T01:38:39.634611269Z"
     description: do-database-metrics-adapter is an adapter for the Kubernetes Metrics
       API that allows you to collect metrics from DigitalOcean Managed Databases.
     digest: 186de30d3076cbb464119bfc9d2efe0ed58e0b01cf74115a458110c289fb2b5a
@@ -179,7 +179,7 @@ entries:
     version: 1.0.5
   - apiVersion: v1
     appVersion: 1.0.2
-    created: "2024-05-17T07:02:52.653498744Z"
+    created: "2024-05-18T01:38:39.63425613Z"
     description: do-database-metrics-adapter is an adapter for the Kubernetes Metrics
       API that allows you to collect metrics from DigitalOcean Managed Databases.
     digest: 2a949419cfbbda2dc853525219c1f2f3726b2d7114287274943c5b35777babde
@@ -199,7 +199,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2024-05-17T07:02:52.651739307Z"
+    created: "2024-05-18T01:38:39.632682688Z"
     description: do-database-metrics-adapter is an adapter for the Kubernetes Metrics
       API that allows you to collect metrics from DigitalOcean Managed Databases.
     digest: cb9eaf5f77bbede421ba0821e381a5c6cc1ab5155238d769fd06fbab4ba11499
@@ -217,10 +217,31 @@ entries:
     urls:
     - https://charts.fru.io/do-database-metrics-adapter-1.0.1.tgz
     version: 1.0.1
+  do-snapshots:
+  - apiVersion: v1
+    appVersion: 1.0.2
+    created: "2024-05-18T01:38:39.636768873Z"
+    description: do-snapshots is a tool monitoring the status of a website and the
+      HTTP access path.
+    digest: b9f976955d92e126f1eb2e52085d8f46374e0e9845ec2aefe5a396800c302d3a
+    home: https://fruition.net/
+    icon: https://fruition.net/_next/static/media/logo.dc04c5a5.svg
+    keywords:
+    - kubernetes
+    - backup
+    maintainers:
+    - email: mmattox@support.tools
+      name: mattmattox
+    name: do-snapshots
+    sources:
+    - https://github.com/fruition/do-snapshots
+    urls:
+    - https://charts.fru.io/do-snapshots-1.0.2.tgz
+    version: 1.0.2
   go-redis-proxy:
   - apiVersion: v1
     appVersion: 0.0.7
-    created: "2024-05-17T07:02:52.660454313Z"
+    created: "2024-05-18T01:38:39.642632521Z"
     description: go-redis-proxy is a tool for proxying redis requests to a redis cluster
     digest: 21bdf1a5d53f9a53f264f37fc50b7a39a403d33fa8a801a2c214f7d3d99c2807
     home: https://github.com/supporttools/go-redis-proxy
@@ -239,7 +260,7 @@ entries:
     version: 0.0.7
   - apiVersion: v1
     appVersion: 0.0.6
-    created: "2024-05-17T07:02:52.660045742Z"
+    created: "2024-05-18T01:38:39.642192212Z"
     description: go-redis-proxy is a tool for proxying redis requests to a redis cluster
     digest: 6bb14a1d67e103ad9d4ecaa4cbec615d101e9626affe9c83d4387a034d87668d
     home: https://github.com/supporttools/go-redis-proxy
@@ -258,7 +279,7 @@ entries:
     version: 0.0.6
   - apiVersion: v1
     appVersion: 0.0.5
-    created: "2024-05-17T07:02:52.659648542Z"
+    created: "2024-05-18T01:38:39.641706978Z"
     description: go-redis-proxy is a tool for proxying redis requests to a redis cluster
     digest: 819b313007d3bb133471e61ebfd4b7bdcebecd8e03f98e5680e2db3982c0b419
     home: https://github.com/supporttools/go-redis-proxy
@@ -277,7 +298,7 @@ entries:
     version: 0.0.5
   - apiVersion: v1
     appVersion: 0.0.4
-    created: "2024-05-17T07:02:52.659253206Z"
+    created: "2024-05-18T01:38:39.639503021Z"
     description: go-redis-proxy is a tool for proxying redis requests to a redis cluster
     digest: 3b699167ef0401c599b2c3a07406f7aa00ac091325ed78ebcd3db4254ff2b954
     home: https://github.com/supporttools/go-redis-proxy
@@ -296,7 +317,7 @@ entries:
     version: 0.0.4
   - apiVersion: v1
     appVersion: 0.0.3
-    created: "2024-05-17T07:02:52.658856917Z"
+    created: "2024-05-18T01:38:39.638791331Z"
     description: go-redis-proxy is a tool for proxying redis requests to a redis cluster
     digest: 3e965e50ad248f86d1705bb75177e2bb9940c4f8b558550d7a2a0acc84868e09
     home: https://github.com/supporttools/go-redis-proxy
@@ -315,7 +336,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: 0.0.2
-    created: "2024-05-17T07:02:52.65795654Z"
+    created: "2024-05-18T01:38:39.638021221Z"
     description: go-redis-proxy is a tool for proxying redis requests to a redis cluster
     digest: 2b81146d828ca16ed5156e65bf741736afa915794589d3de6f91c2e7b87af855
     home: https://github.com/supporttools/go-redis-proxy
@@ -335,7 +356,7 @@ entries:
   go-sql-proxy:
   - apiVersion: v1
     appVersion: 0.2.12
-    created: "2024-05-17T07:02:52.66165448Z"
+    created: "2024-05-18T01:38:39.643777977Z"
     description: go-sql-proxy is a tool for backing up the configuration files in
       a Kubernetes cluster and uploading them to a S3 bucket.
     digest: 7f4d8f39450aa17b8f9564cc4c0bc0018a6048db4be6e587226bb62fa4d53886
@@ -355,7 +376,7 @@ entries:
     version: 0.2.12
   - apiVersion: v1
     appVersion: 0.2.11
-    created: "2024-05-17T07:02:52.661241821Z"
+    created: "2024-05-18T01:38:39.643409033Z"
     description: go-sql-proxy is a tool for backing up the configuration files in
       a Kubernetes cluster and uploading them to a S3 bucket.
     digest: 8892d27130f9251f4300db0fa06d7fae49a86b500e3a78fe71f411a8e1199a5c
@@ -375,7 +396,7 @@ entries:
     version: 0.2.11
   - apiVersion: v1
     appVersion: 0.2.10
-    created: "2024-05-17T07:02:52.660828Z"
+    created: "2024-05-18T01:38:39.643019429Z"
     description: go-sql-proxy is a tool for backing up the configuration files in
       a Kubernetes cluster and uploading them to a S3 bucket.
     digest: b0190440be4f1747d25629f3748bbfff7bbb75f37c7c3ae0acd0429a4975e210
@@ -395,7 +416,7 @@ entries:
     version: 0.2.10
   - apiVersion: v1
     appVersion: 0.2.9
-    created: "2024-05-17T07:02:52.664331737Z"
+    created: "2024-05-18T01:38:39.646512546Z"
     description: go-sql-proxy is a tool for backing up the configuration files in
       a Kubernetes cluster and uploading them to a S3 bucket.
     digest: 27b6ac5dc82d7914bf244d43a237465a41eb3bb79b6b0a7f67fa16cf6755293b
@@ -415,7 +436,7 @@ entries:
     version: 0.2.9
   - apiVersion: v1
     appVersion: 0.2.8
-    created: "2024-05-17T07:02:52.663936972Z"
+    created: "2024-05-18T01:38:39.646104658Z"
     description: go-sql-proxy is a tool for backing up the configuration files in
       a Kubernetes cluster and uploading them to a S3 bucket.
     digest: b4c6bba538d0951c78309c3a800df5604a8b592c8240615533e1465c400059ff
@@ -435,7 +456,7 @@ entries:
     version: 0.2.8
   - apiVersion: v1
     appVersion: 0.2.7
-    created: "2024-05-17T07:02:52.663557575Z"
+    created: "2024-05-18T01:38:39.645721947Z"
     description: go-sql-proxy is a tool for backing up the configuration files in
       a Kubernetes cluster and uploading them to a S3 bucket.
     digest: 2d3509ee3db6e80a9afc6459c1f5d0eef9bedf0f4afeeb8a82d221803327003f
@@ -455,7 +476,7 @@ entries:
     version: 0.2.7
   - apiVersion: v1
     appVersion: 0.2.6
-    created: "2024-05-17T07:02:52.663168791Z"
+    created: "2024-05-18T01:38:39.645355618Z"
     description: go-sql-proxy is a tool for backing up the configuration files in
       a Kubernetes cluster and uploading them to a S3 bucket.
     digest: 3fb73a74d1363ac6979f3dbf07d75b45b428ddb583f7c957fdbc6269c7b8ab3f
@@ -475,7 +496,7 @@ entries:
     version: 0.2.6
   - apiVersion: v1
     appVersion: 0.2.5
-    created: "2024-05-17T07:02:52.662797509Z"
+    created: "2024-05-18T01:38:39.644970994Z"
     description: go-sql-proxy is a tool for backing up the configuration files in
       a Kubernetes cluster and uploading them to a S3 bucket.
     digest: b6d67b6e5939cd259e2e7c2d02c27484f6d605a5762ade1d51197205fb86ac3e
@@ -495,7 +516,7 @@ entries:
     version: 0.2.5
   - apiVersion: v1
     appVersion: 0.2.4
-    created: "2024-05-17T07:02:52.662420857Z"
+    created: "2024-05-18T01:38:39.644557765Z"
     description: go-sql-proxy is a tool for backing up the configuration files in
       a Kubernetes cluster and uploading them to a S3 bucket.
     digest: 40c7288202536cc00e1e246dc61d65006f5b8a6632fff17d08d1eb054d7b1612
@@ -515,7 +536,7 @@ entries:
     version: 0.2.4
   - apiVersion: v1
     appVersion: 0.2.3
-    created: "2024-05-17T07:02:52.662032774Z"
+    created: "2024-05-18T01:38:39.644160888Z"
     description: go-sql-proxy is a tool for backing up the configuration files in
       a Kubernetes cluster and uploading them to a S3 bucket.
     digest: f5187ae7ad00a29d629dfcef921dde16c4b740823978d754933db486aff7e958
@@ -536,7 +557,7 @@ entries:
   go-web-cache:
   - apiVersion: v2
     appVersion: v1.3.1
-    created: "2024-05-17T07:02:52.672225344Z"
+    created: "2024-05-18T01:38:39.654647772Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -556,7 +577,7 @@ entries:
     version: v1.3.1
   - apiVersion: v2
     appVersion: v1.3.0
-    created: "2024-05-17T07:02:52.671850535Z"
+    created: "2024-05-18T01:38:39.654274539Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -576,7 +597,7 @@ entries:
     version: v1.3.0
   - apiVersion: v2
     appVersion: v1.2.11
-    created: "2024-05-17T07:02:52.668224231Z"
+    created: "2024-05-18T01:38:39.650680152Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -596,7 +617,7 @@ entries:
     version: v1.2.11
   - apiVersion: v2
     appVersion: v1.2.10
-    created: "2024-05-17T07:02:52.667843742Z"
+    created: "2024-05-18T01:38:39.65017994Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -616,7 +637,7 @@ entries:
     version: v1.2.10
   - apiVersion: v2
     appVersion: v1.2.9
-    created: "2024-05-17T07:02:52.671466951Z"
+    created: "2024-05-18T01:38:39.653904192Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -636,7 +657,7 @@ entries:
     version: v1.2.9
   - apiVersion: v2
     appVersion: v1.2.8
-    created: "2024-05-17T07:02:52.671081463Z"
+    created: "2024-05-18T01:38:39.653527994Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -656,7 +677,7 @@ entries:
     version: v1.2.8
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2024-05-17T07:02:52.670688991Z"
+    created: "2024-05-18T01:38:39.653146515Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -676,7 +697,7 @@ entries:
     version: v1.2.7
   - apiVersion: v2
     appVersion: v1.2.6
-    created: "2024-05-17T07:02:52.670311428Z"
+    created: "2024-05-18T01:38:39.652727026Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -696,7 +717,7 @@ entries:
     version: v1.2.6
   - apiVersion: v2
     appVersion: v1.2.5
-    created: "2024-05-17T07:02:52.66993671Z"
+    created: "2024-05-18T01:38:39.652337011Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -716,7 +737,7 @@ entries:
     version: v1.2.5
   - apiVersion: v2
     appVersion: v1.2.4
-    created: "2024-05-17T07:02:52.669557113Z"
+    created: "2024-05-18T01:38:39.651927821Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -736,7 +757,7 @@ entries:
     version: v1.2.4
   - apiVersion: v2
     appVersion: v1.2.3
-    created: "2024-05-17T07:02:52.669156396Z"
+    created: "2024-05-18T01:38:39.651543247Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -756,7 +777,7 @@ entries:
     version: v1.2.3
   - apiVersion: v2
     appVersion: v1.2.2
-    created: "2024-05-17T07:02:52.668709303Z"
+    created: "2024-05-18T01:38:39.651151319Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -776,7 +797,7 @@ entries:
     version: v1.2.2
   - apiVersion: v2
     appVersion: v1.2.1
-    created: "2024-05-17T07:02:52.667455238Z"
+    created: "2024-05-18T01:38:39.648966836Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -796,7 +817,7 @@ entries:
     version: v1.2.1
   - apiVersion: v2
     appVersion: v1.2.0
-    created: "2024-05-17T07:02:52.667055103Z"
+    created: "2024-05-18T01:38:39.647655668Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -816,7 +837,7 @@ entries:
     version: v1.2.0
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2024-05-17T07:02:52.665935827Z"
+    created: "2024-05-18T01:38:39.647259702Z"
     description: GO-Web-Cache is a simple caching server written in Go that acts as
       a reverse proxy to cache responses from a backend server. It includes features
       such as caching based on Cache-Control directives, health checks, metrics, and
@@ -836,7 +857,7 @@ entries:
     version: v1.0.1
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2024-05-17T07:02:52.664674255Z"
+    created: "2024-05-18T01:38:39.646888824Z"
     description: A Helm chart for Kubernetes
     digest: b9ef3f0f613a64b450d1023b13a1fb5145375e94f1606bd6403343aef86521b9
     name: go-web-cache
@@ -847,7 +868,7 @@ entries:
   site-monitor:
   - apiVersion: v1
     appVersion: 1.1.18
-    created: "2024-05-17T07:02:52.67958188Z"
+    created: "2024-05-18T01:38:39.66323512Z"
     description: site-monitor is a tool monitoring the status of a website and the
       HTTP access path.
     digest: c9e2b33ec2bda3229b30c9b1cc079090d100077532c1b3051f551cc9fe6b3a04
@@ -867,7 +888,7 @@ entries:
     version: 1.1.18
   - apiVersion: v1
     appVersion: 1.1.17
-    created: "2024-05-17T07:02:52.679012128Z"
+    created: "2024-05-18T01:38:39.662668813Z"
     description: site-monitor is a tool monitoring the status of a website and the
       HTTP access path.
     digest: 2ae34d9d504d88c39f73a94a1f648e9f8c8ae70d3efa7186977791a9bede3632
@@ -887,7 +908,7 @@ entries:
     version: 1.1.17
   - apiVersion: v1
     appVersion: 1.1.16
-    created: "2024-05-17T07:02:52.678445302Z"
+    created: "2024-05-18T01:38:39.662079995Z"
     description: site-monitor is a tool monitoring the status of a website and the
       HTTP access path.
     digest: 24e29757bfb1d11d1070fe6680ad489e3821639d676590255ac8849d87e27c11
@@ -907,7 +928,7 @@ entries:
     version: 1.1.16
   - apiVersion: v1
     appVersion: 1.1.15
-    created: "2024-05-17T07:02:52.677884497Z"
+    created: "2024-05-18T01:38:39.661511434Z"
     description: site-monitor is a tool monitoring the status of a website and the
       HTTP access path.
     digest: bc6566cb269a6896bf3dabff5a56caf0ee787a0e8e5dbb7a665cca4f09d8c919
@@ -927,7 +948,7 @@ entries:
     version: 1.1.15
   - apiVersion: v1
     appVersion: 1.1.14
-    created: "2024-05-17T07:02:52.67731697Z"
+    created: "2024-05-18T01:38:39.66094622Z"
     description: site-monitor is a tool monitoring the status of a website and the
       HTTP access path.
     digest: d5b300ed87fe1b269dd9271ba9aa60e4c2a0ff561559607f422f0622a034a2b1
@@ -947,7 +968,7 @@ entries:
     version: 1.1.14
   - apiVersion: v1
     appVersion: 1.1.12
-    created: "2024-05-17T07:02:52.676756525Z"
+    created: "2024-05-18T01:38:39.660402046Z"
     description: site-monitor is a tool monitoring the status of a website and the
       HTTP access path.
     digest: 8e40f6c36ed06ce4b55be0a1530c5548bd3432120e365750bfdc8b89545b7fb0
@@ -967,7 +988,7 @@ entries:
     version: 1.1.12
   - apiVersion: v1
     appVersion: 1.1.11
-    created: "2024-05-17T07:02:52.676252126Z"
+    created: "2024-05-18T01:38:39.65983101Z"
     description: site-monitor is a tool monitoring the status of a website and the
       HTTP access path.
     digest: 7e613c3e2ed30758dbd40eb6a25ecd134d333a086718836a174e421d304a9fbf
@@ -987,7 +1008,7 @@ entries:
     version: 1.1.11
   - apiVersion: v1
     appVersion: 1.1.10
-    created: "2024-05-17T07:02:52.675726176Z"
+    created: "2024-05-18T01:38:39.658927882Z"
     description: site-monitor is a tool monitoring the status of a website and the
       HTTP access path.
     digest: b8255089bfeb7f6a12fbf5efb5268ae83ab6b3e4007603f29b1167277d07c132
@@ -1007,7 +1028,7 @@ entries:
     version: 1.1.10
   - apiVersion: v1
     appVersion: 1.1.9
-    created: "2024-05-17T07:02:52.680674365Z"
+    created: "2024-05-18T01:38:39.664342274Z"
     description: site-monitor is a tool monitoring the status of a website and the
       HTTP access path.
     digest: 9c02534e7b53e9ce0341fa4ae1236340466f3a1a27b0b99937b5c71d037e6af7
@@ -1027,7 +1048,7 @@ entries:
     version: 1.1.9
   - apiVersion: v1
     appVersion: 1.1.8
-    created: "2024-05-17T07:02:52.680105135Z"
+    created: "2024-05-18T01:38:39.663778904Z"
     description: site-monitor is a tool monitoring the status of a website and the
       HTTP access path.
     digest: c5f938e63d17d48899ae8a0bec061db70977e770f4dad424ae5317926b111785
@@ -1047,7 +1068,7 @@ entries:
     version: 1.1.8
   - apiVersion: v1
     appVersion: 1.0.7
-    created: "2024-05-17T07:02:52.675210806Z"
+    created: "2024-05-18T01:38:39.657570817Z"
     description: site-monitor is a tool monitoring the status of a website and the
       HTTP access path.
     digest: 407bb7a230de768ff5cf4a8be6968f76d00af3383fbbb765f07ecf9ab5da3b87
@@ -1067,7 +1088,7 @@ entries:
     version: 1.0.7
   - apiVersion: v1
     appVersion: 1.0.6
-    created: "2024-05-17T07:02:52.674160769Z"
+    created: "2024-05-18T01:38:39.655644268Z"
     description: site-monitor is a tool monitoring the status of a website and the
       HTTP access path.
     digest: fd44132df0196f7c68b714d3d5c42eb7bbe8bb331b05abff7a0d9c25f4b97030
@@ -1087,7 +1108,7 @@ entries:
     version: 1.0.6
   - apiVersion: v1
     appVersion: 1.0.5
-    created: "2024-05-17T07:02:52.673030434Z"
+    created: "2024-05-18T01:38:39.655174453Z"
     description: site-monitor is a tool monitoring the status of a website and the
       HTTP access path.
     digest: 1c654050a12497cef0f3278fe4ce8ecba77e30bcd0b9077d9e390da1bbcc8e4f
@@ -1105,4 +1126,4 @@ entries:
     urls:
     - https://charts.fru.io/site-monitor-1.0.5.tgz
     version: 1.0.5
-generated: "2024-05-17T07:02:52.651142845Z"
+generated: "2024-05-18T01:38:39.632137272Z"
