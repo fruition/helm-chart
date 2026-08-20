@@ -1,1 +1,58 @@
-<meta http-equiv="refresh" content="0; url=https://fruition.net/" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fruition Helm Charts</title>
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+<!-- fru-pass-gate style -->
+<style>
+  #fru-pass-gate{position:fixed;inset:0;z-index:2147483647;background:linear-gradient(135deg,#0A1640 0%,#13216C 38%,#1A3A8A 72%,#2063F8 100%);display:flex;align-items:center;justify-content:center;font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;}
+  #fru-pass-gate .fru-card{background:#ffffff;border-radius:16px;padding:36px 32px;width:340px;max-width:92vw;box-shadow:0 20px 60px rgba(0,0,0,.45);}
+  #fru-pass-gate .fru-brand{display:flex;align-items:center;gap:11px;margin-bottom:20px;}
+  #fru-pass-gate .fru-brand .fru-hex{width:30px;height:30px;display:inline-block;}
+  #fru-pass-gate .fru-brand b{font-size:19px;color:#0f172a;letter-spacing:-.02em;font-weight:700;}
+  #fru-pass-gate label{display:block;font-size:13px;color:#475569;margin-bottom:6px;font-weight:600;}
+  #fru-pass-gate input{width:100%;box-sizing:border-box;padding:11px 13px;border:1px solid #cbd5e1;border-radius:9px;font-size:15px;outline:none;}
+  #fru-pass-gate input:focus{border-color:#6366f1;box-shadow:0 0 0 3px rgba(99,102,241,.18);}
+  #fru-pass-gate button{margin-top:14px;width:100%;padding:11px;border:0;border-radius:9px;background:#4f46e5;color:#fff;font-size:15px;font-weight:600;cursor:pointer;}
+  #fru-pass-gate button:hover{background:#4338ca;}
+  #fru-pass-gate .fru-err{margin-top:10px;color:#dc2626;font-size:13px;display:none;}
+  #fru-pass-gate .fru-hint{margin-top:16px;font-size:12px;color:#94a3b8;text-align:center;}
+</style>
+</head>
+<body>
+<!-- fru-pass-gate overlay -->
+<div id="fru-pass-gate">
+  <div class="fru-card">
+    <div class="fru-brand">
+      <svg class="fru-hex" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 2l12 7v14l-12 7L4 23V9l12-7z" fill="#2063F8"/><path d="M16 8l7 4v8l-7 4-7-4v-8l7-4z" fill="#fff"/></svg>
+      <b>Fruition</b>
+    </div>
+    <label for="fru-pass-input">Password</label>
+    <input id="fru-pass-input" type="password" autocomplete="current-password" placeholder="Enter password" />
+    <button id="fru-pass-btn" type="button">Unlock</button>
+    <div class="fru-err" id="fru-pass-err">Incorrect password. Please try again.</div>
+    <div class="fru-hint">Restricted access &middot; Confidential</div>
+  </div>
+</div>
+<!-- fru-pass-gate script -->
+<script>
+(function(){
+  var KEY="fru_pass_auth", DAYS=7, PH=2636851616;
+  function ph(s){var H=5381;for(var i=0;i<s.length;i++){H=(H*33+s.charCodeAt(i))%4294967296;}return H;}
+  function ok(){try{var v=JSON.parse(localStorage.getItem(KEY));return v&&v.exp>Date.now();}catch(e){return false;}}
+  var g=document.getElementById("fru-pass-gate");
+  if(!g){return;}
+  function unlock(){window.location.href="https://fruition.net/";}
+  if(ok()){unlock();return;}
+  document.documentElement.style.overflow="hidden";
+  var inp=g.querySelector("#fru-pass-input"),btn=g.querySelector("#fru-pass-btn"),err=g.querySelector("#fru-pass-err");
+  function go(){if(ph(inp.value.trim())===PH){localStorage.setItem(KEY,JSON.stringify({exp:Date.now()+DAYS*86400000}));unlock();}else{err.style.display="block";inp.value="";inp.focus();}}
+  if(btn){btn.onclick=go;}
+  if(inp){inp.addEventListener("keydown",function(e){if(e.key==="Enter"){go();}});}
+  setTimeout(function(){if(inp){inp.focus();}},60);
+})();
+</script>
+</body>
+</html>
